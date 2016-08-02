@@ -15,7 +15,7 @@ public class RedirectToJSPServlet extends HttpServlet {
                          HttpServletResponse response) throws ServletException, IOException {
         // Prepare output html
         ServletContext servletContext = getServletContext();
-        RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/helloWorld.jsp");
+        RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/index.html");
         requestDispatcher.forward(request, response);
     }
 

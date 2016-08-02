@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 public class HelloWorldController implements MVCController {
 
     public MVCModel execute(HttpServletRequest request) {
-        return new MVCModel("Hello from MVC", "/helloWorld.jsp");
+        return new MVCModel("Hello from MVC", "/index.html");
     }
 
 }
