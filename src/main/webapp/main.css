@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-    background-image: url(LogoMakr.png);
+    ;
     position: relative;
     top: 10px;
     left: 20px;
@@ -136,7 +136,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     align-content: center;
     width: 700px;
     min-height: 250px;
-    height: 38%;
+    height: 44%;
     min-width: 60%;
     position: absolute;
     left: 19%;
@@ -157,7 +157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     align-content: center;
     width: 885px;
     min-height: 335px;
-    height: 54%;
+    height: 59%;
     min-width: 65%;
     position: absolute;
     left: 19%;
